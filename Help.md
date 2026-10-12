@@ -1,209 +1,185 @@
-**简体中文 | [English](./Help_en-us.md)**
+**[English](./Help.md) | [简体中文](./Help_CN.md) | [বাংলা](./Help_BN.md)**
 
-## TrafficMonitor 常见问题
-这里是关于TrafficMonitor常见问题的页面，如果你想查看关于TrafficMonitor的各项功能和使用方法的详细介绍，请[点击这里](https://github.com/zhongyang219/TrafficMonitor/wiki)转到TraffinMonitor Wiki页面。
+# TrafficMonitor_Frequently Asked Questions (FAQ)
+This is the page about the Frequently Asked Questions of TrafficMonitor. If you want to view the detailed introduction of the functions and usage of TrafficMonitor, please [click here](https://github.com/zhongyang219/TrafficMonitor/wiki) to go the the TraffinMonitor Wiki page.
 
-### Windows11下任务栏窗口和系统小组件重叠
+### In Windows 11, the taskbar window overlapped with the windows Widgets
 
-在Windows11下，可以通过以下步骤解决此问题：
+In Windows 11, this issue can be fixed with the following steps:
 
-打开“选项设置”——“任务栏设置”，点击“Windows11相关设置”按钮，勾选“避免与右侧小组件重叠”选项，如下图所示。
+Open "Option Settings"-"Taskbar Window Settings", click the "Settings related to Windows 11" button, and check "Avoid overlapping with right Widgets" option. As shown in the picture bellow.
 
 <img src="Screenshots/image-20250310121048889.png" alt="image-20250310121048889" style="zoom:80%;" />
 
-如果你的任务栏中没有显示“小组件”，则此选项是灰色不可用状态。
+If the Widgets is not showing on the taskbar, this option is grayed.
 
-### Windows11下“任务栏窗口显示在任务栏左侧”是灰色不可用状态
+### In Windows 11, "The taskbar window appears to the left of the taskbar" is grayed
 
-在Windows11，只有在任务栏居中的情况下，此选项才可用。
+In Windows 11, this option is only available when the taskbar is align centered.
 
-因为当任务栏靠左显示时，左侧没有给TrafficMonitor显示的空间。 
+Because when the taskbar is displayed on the left, there is no space on the left side for TrafficMonitor to display.
 
-### Windows11下，当任务栏被占满时，TrafficMonitor的任务栏窗口和任务栏图标重叠
+### In Windows 11, the taskbar window of TrafficMonitor overlaps with the taskbar icons when taskbar is full
 
 <img src="images/image-20250310173257156.png" alt="image-20250310173257156" style="zoom:80%;" />
 
-这个问题目前无法解决，建议尽量不要让任务栏被占满，或者在系统设置中将“合并任务栏按钮和标签”改为“始终”。
+This problem cannot be fixed at present. It is recommended to try not to fill the taskbar, or change "Merge taskbar buttons and tabs" to "Always" in the system settings.
 
-请不要向我反馈此问题。
+Please do not send feedback to me on this issue.
 
-### 如何显示CPU和内存利用率？
+### How to show the CPU and memory usage?
 
-在主窗口点击右弹出键菜单，勾选“显示更多信息”。如果需要在任务栏窗口中也显示CPU和内存利用率，则在任务栏窗口中点击右键弹出菜单，选择“显示设置<img src="./Screenshots/images/item.png" style="zoom: 80%;" />”，在弹出对话框中勾选“CPU和内存利用率”即可。
+Right click the main window and check "Show More Info". If you also need to display the CPU and memory usage in the taskbar window, right click the taskbar window and select "Display Settings<img src="./Screenshots/images/item.png" style="zoom: 80%;" />", check "CPU and Memory Usage" in the  pop-up dialog box.
 
-### 如何更改任务栏中“CPU”、“内存”等文本
+### How do I change the text such as "CPU" and "MEM" in the taskbar
 
-任务栏窗口中的标签文本是可以自定义的。点击鼠标右键，在右键菜单中选择“选项”，点击“任务栏窗口设置”，点击“显示文本设置”，双击项目右侧的文本即可更改，然后点击两次“确定”即可。
+The label text in the taskbar window can be customized. Right click on the taskbar window, select "Options", click "Taskbar Windows Settings", click "Display Text settings" button, the text on the right side of the item can be modified by double click. After modified, click "OK" button twice.
 
 <img src="Screenshots/images/image-20221119093547649.png" alt="image-20221119093547649" style="zoom:80%;" />
 
-由于这些文本是可以自定义的，因此切换语言时不会自动更改。在切换语言后，你可以点击“显示文本”对话框中的“恢复默认”按钮。
+Because the text is customizable, it does not automatically change when you switch the language. After you swatch the language, you can click "Restore default" button in the "Display Text settings" dialog box.
 
-### 网速一直显示为0KB
+### The net speed is always displayed as 0KB
 
-这种情况可能是因为你电脑中正在使用的网卡发生了切换导致的。
+This may caused by the switch of the network you are using on your computer.
 
-点击右键菜单“选择网络连接”下面的“刷新网络连接列表”也许可以解决这个问题。
+Click "Refresh connection list" under "Select network connections" in the context menu may solve this problem.
 
 <img src="Screenshots/images/image-20221119094324759.png" alt="image-20221119094324759" style="zoom:80%;" />
 
-如果问题仍然存在，请尝试在“选择网络连接”的子菜单下选择你要监控的网络连接，而不是选择“自动选择”。
+If this problem still exists, please try to select the network connection you want to monitored in the "Select network connections" submenu instead of select "Auto select".
 
-如果问题仍然存在，请尝试在“选项设置”>“常规设置”>“高级”中点击“选择要监控的网络连接”按钮，在弹出的对话框中只勾选你想监控的网络连接，去掉其他项目的勾选，点击两次“确定”按钮即可。
+If this problem still exists, please try to click the "Select the connection to monitor" button in "Options Settings" > "General Settings" > "Advanced", check the network you want to monitored, uncheck other items, and click "OK" button twice.
 
 <img src="Screenshots/images/image-20221119094501312.png" alt="image-20221119094501312" style="zoom:80%;" />
 
-### 如何单独设置任务栏窗口中每个项目的颜色？
-在右键菜单中选择“选项”，切换到“任务栏窗口设置”，勾选“指定每个项目的颜色”，此时再点击“文本颜色”右边的颜色块，就会弹出“任务栏窗口颜色设置”的对话框了。
+### How do I set the color of each item in the taskbar window individually?
 
-如果不勾选“指定每个项目的颜色”，则只能为文本设置统一的颜色。
+Select "Options" In the right-click menu, switch to "Taskbar Window Settings" tab, check "Specify colors for each item", and then click the color block on the right side of "Text Color " to pop up the dialog box for taskbar window color settings. 
 
-### 设置了开机自动运行仍然无法开机自启。
-从1.80版本开始，标准版和Lite版采用了不同的方式来实现开机自启动。
+If you do not check "Specify colors for each item", you can only set the uniform color for the text.
 
-* Lite版和1.80以前的版本：
+### "Auto run when Windows start" dose not work
+Starting from version 1.80, the version with temperature monitoring and the version without temperature monitoring have adopted different methods to realize "auto run when Windows start".
 
-  Lite版和1.80以前的版本的开机启动功能是通过在注册表“计算机\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run”中创建“TrafficMonitor”的注册表项来实现的，如果你遇到无法开机启动的问题，请先检查该注册表项是否存在，再检查程序的路径是否正确。如果你移动了程序的位置，则会因为路径无效导致开机自启动失效，此时只需要在选项设置中取消“开机自动运行”的勾选，再将其勾选上就可以了。
+* Versions without temperature monitoring and versions before 1.80:
 
-  注意，某些第三方安全软件可能会阻止TrafficMonitor的开机自启动，请尝试在安全软件中允许TrafficMonitor开机自启动。
+  The auto run function of the versions without temperature monitoring and versions before 1.80 is achieved by creating the "TrafficMonitor" key in the registry path of "Computer\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run".
+  If you encounter the problem of auto run dose not work, please check that the registry exists, and then check the program path is correct. If you move the location of the program, the auto run will be invalid because of the program location being invalid. In this case, you only need to uncheck "Auto run when Windows start" in the option settings, and then check it on.
 
-  如果设置了以管理员身份运行也会出现开机无法自启动的问题，请尝试去掉以管理员身份运行。
+  Note that some third-party security software may prevent TrafficMonitor from booting up automatically. Please try to allow TrafficMonitor to boot up automatically in the security software.
 
-* 标准版：
+  If you set the program to run as an administrator, the auto run function will also not work. Please try to remove running as an administrator.
 
-  标准版是通过创建任务计划来实现开机自启动的。可以通过`控制面板\系统和安全\管理工具`来打开任务计划程序。
+* Version with temperature monitoring:
 
-  如下图所示：
+  The version that includes temperature monitoring implements auto run function by creating a task plan. The task scheduler can be opened through `Control Panel\System and Security\Administrative Tools`.  As shown below:
 
   <img src="./Screenshots/images/image3.jpg"/>
 
-  如果你遇到无法开机自启动的情况，请到“任务计划程序”中检查TrafficMonitor的计划任务是否正常创建，exe文件的路径是否正确。
+  If you encounter that situation that the program cannot be started automatically after booting, please go to "Task Scheduler" to check whether the scheduled task of TrafficMonitor is created normally and the path of the exe file is correct.
 
-开机无法自启动的一个常见原因是你可能移动了TrafficMonitor主程序的位置。如果你为TrafficMonitor设置好了开机自动运行，但是你将TrafficMonitor移动到了其他位置，那么开机自启动肯定就失效了。你需要打开TrafficMonitor的“选项设置”——“常规设置”，如果“开机时自动运行”处于勾选状态，先去掉勾选，然后再次打开“选项设置”——“常规设置”，重新勾选“开机时自动运行”即可。
+A common reason why the "Auto run when Windows start" dose not work is that you may have moved the location of the TrafficMonitor main program. If you have set up TrafficMonitor to run automatically at startup, but you move TrafficMonitor to another location, then the auto run at startup will definitely fail. You need to open "Option Settings"-"General Settings" of TrafficMonitor, if "Auto run when Windows start" is checked, remove the check, then open "Option Settings"-"General Settings" again, and check again "Auto run when Windows start" will be fine.
 
-需要注意的是，如果你使用不含温度监控的版本在注册表中创建了开机自启动项，然后再使用包含温度监控的版本开启开机自启动功能，它会自动将注册表中的开机自启动项删除，再在任务计划中创建开机自启动项。反之亦然。
+It should be noted that if you use the version without temperature monitoring to create a auto-start item in the registry, and then use the version that with temperature monitoring to turn on the "Auto run when Windows start" function, it will automatically delete the auto-start item in the registry, and then create a auto-start item in the task plan. vice versa.
 
-### 程序弹出“无法保存设置”的对话框。
-如果遇到这种情况，说明程序没有向其所在目录下写入数据的权限，导致设置数据无法保存。尝试将程序移动到其他有写入权限的文件夹中可以解决这个问题。
+### The program pops up the "Unable to Save Settings" message box.
+If you encountered this problem, that means the program does not have permission to write data to its directory, causing the settings data cannot be saved. Try to move the program to another folder that has write permissions will save this problem. 
+You can also change the save path of the configuration and data file to the C:\Users\\<username\>\AppData\Roaming\TrafficMonitor directory by the following steps. 
 
-你也可以通过以下步骤将配置文件的保存路径改为C:\Users\\<用户名\>\AppData\Roaming\TrafficMonitor目录。
+* Exit TrafficMonitor and restart TrafficMonitor as an administrator.
+* Select "Options" in the right-click menu, switch to the "General Settings" tab, and select "Save to AppData Directory" in "Configuration and data files".
 
-* 退出TrafficMonitor，以管理员身份重新启动TrafficMonitor。
-* 在右键菜单中选择“选项”，切换到“常规设置”选项卡，在“数据和配置文件”中选择“保存到Appdata目录”。
-
-如果此时仍然提示“无法保存设置”，请打开应用程序所在目录，打开`global_cfg.ini`文件，如果不存在请新建一个，在里面添加如下内容：
+If it still pops up the "Unable to Save Settings" message box, open the directory where the application is located, open the `global_cfg.ini` file. If it doesn't exist, create a new one, adding the following:
 
 ```
 [config]
 portable_mode = false
 ```
 
-如果无法新建，可以在其他位置（比如桌面）新建该文件，然后移动到程序所在目录。
+If the file cannot be created, you can create the file in a different location, such as the desktop, and then move to the directory where the program is located.
 
-如果`global_cfg.ini`文件已存在，就把`portable_mode `的值改成`false`，保存后重新启动TrafficMonitor。
+If the `global_cfg.ini` file already exists, change the value of `portable_mode` to `false` and save, then restart TrafficMonitor.
 
-如果`global_cfg.ini`没有写入权限，可以尝试把该文件复制到桌面，改好后复制回原来的路径将原文件覆盖。
+If `global_cfg.ini` does not have write permission, you can try copying the file to the desktop, and then copying it back to the original path to overwrite the original file after modified.
 
-执行以上步骤后理论上应该不会出现这种问题了。如果这个问题仍然出现，请尝试把C:\Users\\<用户名\>\AppData\Roaming\TrafficMonitor\config.ini删除，该文件会在删除后重新生成。
+After these steps, this problem should not theoretically occur. If this problem still occurs, try to delete the file C:\Users\\<username\>\AppData\Roaming\TrafficMonitor\config.ini. This file will be regenerated after it is deleted. 
 
-在1.79以后的版本中，如果程序所在目录无法写入数据，会自动将配置和数据文件保存到C:\Users\\<用户名\>\AppData\Roaming\TrafficMonitor目录，此时，“选项”——“常规设置”——“数据和配置文件”中“保存到程序所在目录”将不可用。
+In version 1.79 and later, if the directory where the program located is not writable, the configuration and data files will be automatically saved to the "C:\Users\\<username\>\AppData\Roaming\TrafficMonitor" directory. At this time, "Options" -“General Settings”-“Save to the program directory” in “Configuration and data files” will not be available.
 
-### 更改设置后下次开机时设置丢失
+### The configuration is lost after next start up
 
-如果你没有看到“无法保存设置”的对话框，则说明程序的配置文件是能正常保存的。因此这个问题的原因可能是你的电脑中存在了多个TrafficMonitor的程序文件，并且配置文件保存在了程序所在目录下。
+If you do not see the "Unable to Save Settings" message box, that means the configuration file can be saved normally. The cause of this problem may be that you have multiple TrafficMonitor application files on your computer and the configuration files are saved in the application directory.
 
-例如，你打开了“D:\software\TrafficMonitor\TrafficMonitor.exe”，并且更改了选项设置，但是下次开机时启动的却是“D:\software1\TrafficMonitor\TrafficMonitor.exe”，而你之前修改的配置被保存在了“D:\software\TrafficMonitor\”目录下。
+For example, you have open "D:\software\TrafficMonitor\TrafficMonitor.exe", and modified the configuration, but next time you start your computer, "D:\software1\TrafficMonitor\TrafficMonitor.exe" is started, while the configuration files you modified before is saved in "D:\software\TrafficMonitor\\".
 
-解决这个问题的方法是：
+The method to solve this problem is:
 
-1. 在“选项设置”>“常规设置”>“配置和数据文件”中，将配置文件的保存位置更改为Appdata目录。
-2. 删除你电脑中不需要的TrafficMonitor的程序文件，启动TrafficMonitor后，打开“选项设置”>“常规设置”，点击“重新设置开机自动运行”按钮。
+1. Change the save location of the configuration files to AppData directory in "Option Settings" > "General Settings" > "Configuration and data file".
+2. Delete the TrafficMonitor application files you don't need on your computer, start TrafficMonitor, open "Option Settings" > "General Settings", click "Reset autorun" button. 
 
-### 网速数值显示不全。
-由于不同字体每个字符的宽度并不一样，在某些情况下，确实会出现网速数值显示不全的问题。如果出现了这样的问题，请打开“选项”——“任务栏窗口设置”，在“数据位数”下拉列表中选择一个更大的值。
-### 设置了鼠标穿透后如何取消？
-在通知区的TrafficMonitor的图标上点击鼠标右键，去掉“鼠标穿透”的勾选即可。
+### The net speed value is not fully displayed.
+Because the width of each character in different fonts is not the same, in some cases, it does appear the problem of the net speed value is not fully displayed. If this problem occurs, open "Options"-"Taskbar Window Settings", and select a larger value in the "Number of digits" drop down list.
+### How to cancel after setting the mouse penetrate?
+Right click the TrafficMonitor icon in the notification area, uncheck the "Mouse Penetrate".
+After the mouse penetrate is set, the suspension window will not be able to respond to any mouse messages, or pop-up right-click menu. But the menu can be popped up by right click the icon in notification area. The right-click menu of the main window and which of the notification area icon is exactly the same.
+In addition, even if you have previously set the hidden notify icon, when the "mouse penetrate" is set, the notify icon will also automatically appear to prevent the right-click menu cannot be displayed. 
+Note: The notification area icon will be automatically displayed in the following situations: 
 
-设置了鼠标穿透后，悬浮窗将无法响应任何鼠标消息，也无法弹出右键菜单，但是可以通过通知区图标来弹出右键菜单。主窗口的右键菜单和通知区图标的右键是完全一样的。
-
-另外，即使你之前设置了隐藏通知区图标，开启鼠标穿透后，通知区图标也会自动显示出来，防止无法弹出右键菜单。
-
-说明：以下几种情况下通知区图标会自动显示出来：
-
-* 开启鼠标穿透后；
-* 不显示任务栏窗口的情况下隐藏主窗口后；
-* 隐藏主窗口的情况下关闭任务栏窗口后；
-* 开启鼠标穿透的情况下关闭任务栏窗口后。
-### Windows 10 白色任务栏主题时任务栏窗口颜色的问题
-
-在使用白色任务栏主题时，你可以在在“任务栏窗口设置”点击“预设方案”按钮，选择“浅色模式”，可以一键设置浅色模式任务栏颜色。如图所示：
+* After the "Mouse Penetrate" is set;
+* Hide the main window without displaying the taskbar window;
+* Close the taskbar window when the main window is hidden;
+* Close the taskbar window when the "Mouse Penetrate" is set.
+### Problems with the taskbar window color in Windows 10 white taskbar theme
+When using the white taskbar theme, you can click the "Preset" button in the "Taskbar Window Settings" and select "Light Mode" to set the taskbar color in light mode. As the picture shows:
 
 <img src="./Screenshots/images/image2.jpg" style="zoom:80%;" />
 
-同时，你还可能勾选“自动适应Windows10深色/浅色主题”，程序会在Windows10深色/浅色主题更换时自动切换颜色方案。你可以点击“自动适应设置”按钮来配置在深色和浅色主题时分别使用哪个颜色预设。
+At the same time, you may also check "Auto adapt to Windows 10 dark/light theme", the program will automatically switch the color preset when Windows 10 dark/light theme is changed. You can click the "Auto Adapt settings" button to configure which color preset to use for dark and light themes.
 
-### 在Windows7/Windows8/8.1下任务栏窗口有个背景色，无法完全透明
-这个问题确实存在，但是在Win10下是正常的。这个问题暂时无法解决。
+### The taskbar windows cannot be displayed when the HDR is turned on in Windows 10
 
-在1.79以后的版本中，Windows8/8.1下可以在“选项”——“任务栏窗口设置”中勾选“背景色透明”，再勾选“根据任务栏颜色自动设置背景色”即可获得较好的显示效果。
+Some users have reported that turning on the HDR function in Windows 10 will cause the taskbar window to fail to display. If you encounter this problem, you can try turning off the "Background Transparent" option in ["Option Settings" - "Taskbar Window Settings"](https://github.com/zhongyang219/TrafficMonitor/wiki/选项设置#任务栏窗口设置).
 
-### 任务栏窗口有时会显示不全，比如单位被覆盖了
-这确实是一个BUG，但是我目前还没有找到一个好的解决方法，这个问题通常出现在任务栏右侧通知区域宽度变化的时候，主要在在切换输入法的时候，如果出现了这个问题，可以将通知区任意一个图标向上拖动将其隐藏，再将其拖下来即可恢复正常。
-出现这个问题原因在于，由于系统任务栏通知区的图标数量可能会发生变化，导致通知区的宽度也会时常变化，当通知区的宽度发生变化时，TrafficMonitor的任务栏窗口需要实时调整其位置。但是由于我无法知道通知区的宽度在什么时候变化，因此只能每隔一段时间判断是否需要调整位置，如果任务栏通知区域的宽度变化得太快，就会导致TrafficMonitor的任务栏无法及时调整其位置，从而导致了这个BUG。
+Since version 1.85, this can be fixed by changing to Direct2D rendering in "Options Settings" - "Taskbar Window Settings" - "Rendering Settings".
 
-**以下步骤或许可以解决这个问题：**
+### The CPU usage displayed is inconsistent with Task Manager
 
-* 打开“设置”
-* 点击“时间和语言”——“区域和语言”
-* 点击右侧“高级键盘设置”
-* 勾选“使用桌面语言栏”
-* 右键点击任务栏，选择“任务栏设置”
-* 点击“打开或关闭系统图标”，关闭“输入指示”
-方法来自知乎 [win10的任务栏为何一点击就乱动？](https://www.zhihu.com/question/312032145/answer/627965084)
+Since Windows 10, if you want to make the CPU usage shown by TrafficMonitor consistent with Task Manager, please go to "Option Settings"-"General Settings"-"Advanced"-"CPU usage acquisition method", and select "Use the performance counter".
 
-### Windows10中开启HDR后任务栏窗口无法显示
+### About the temperature monitoring of TrafficMonitor
 
-部分用户反馈，在Windows10中开始HDR功能会导致任务栏窗口无法显示。如果遇到这个问题，可以尝试在[“选项设置”——“任务栏窗口设置”](https://github.com/zhongyang219/TrafficMonitor/wiki/选项设置#任务栏窗口设置)中关闭“背景透明”选项的勾选。
+Due to some problems occurred in some computers caused by the temperature monitoring function, the temperature monitoring function is turned off by default. If you want to use the temperature monitoring function of TrafficMonitor, please go to ["Option Settings"-"General Settings"-"Hardware Monitoring"](https://github.com/zhongyang219/TrafficMonitor/wiki/选项设置#硬件监控) to enable it. After it is turned on, temperature-related items will appear under the "Display Settings" submenu in the taskbar right-click menu.
 
-在1.85版本以后，可以通过在“选项设置”——“任务栏窗口设置”——“渲染设置”中改成Direct2D渲染来解决这个问题。
+The temperature monitoring function of TrafficMonitor relies on a third-party open source library [LibreHardwareMonitor](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor). If you encounter the problem that the hardware temperature cannot be displayed, or the displayed temperature is incorrect, then  please download LibreHardwareMonitor first, and check whether LibreHardwareMonitor can display the corresponding temperature normally.
 
-### CPU利用率显示和任务管理器不一致
+If LibreHardwareMonitor cannot display the temperature of the corresponding hardware, then I cannot solve this problem. You can report your problem to the author of LibreHardwareMonitor.
 
-在Windows10及以上操作系统中，如果你需要让TrafficMonitor显示的CPU利用率和任务管理器一致，请到[“选项设置”——“常规设置”——“高级”](https://github.com/zhongyang219/TrafficMonitor/wiki/选项设置#高级)——“CPU使用率获取方式”中选择“使用性能计数器”。
+If the latest version of LibreHardwareMonitor can display the hardware temperature normally, replace the LibreHardwareMonitorLib.dll files in the TrafficMonitor folder with the downloaded the LibreHardwareMonitorLib.dll files may solve this problem.
 
-由于Windows10以上操作系统中任务管理器获取CPU利用率的方式发生了改变，因此选择“基于CPU使用时间”的方式获取到的CPU利用率会和任务管理器中显示的不一致。
+**Note: The hardware monitoring function (including temperature monitoring and GPU usage monitoring) may have some problems, which may cause more CPU and memory usage. According to feedback from some users, turning on the temperature function will cause problems such as program crashes and system crashes. Please decide to turn on the hardware monitoring function after you are aware of the above risks. Otherwise, please do not use the hardware monitoring function.**
 
-### 关于TrafficMonitor温度监控的问题
+## The program prompts that "MSVC\*.dll" or "mfc\*.dll" cannot be found when the program starts
 
-由于温度监控功能在某些电脑中存在一些问题，因此温度监控功能默认是关闭的，如果你要使用TrafficMonitor的温度监控功能，请到[“选项设置”-“常规设置”-“硬件监控”](https://github.com/zhongyang219/TrafficMonitor/wiki/选项设置#硬件监控)中开启。开启后，任务栏右键菜单中的“显示设置”子菜单下才会出现温度相关的项目。
+Click the link below to download and install the Microsoft Visual C++ runtime environment.
 
-TrafficMonitor的温度监控功能依赖第三方开源库[LibreHardwareMonitor](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor)。如果你遇到硬件温度无法显示，或者显示的温度异常的问题，请先下载LibreHardwareMonitor，并查看LibreHardwareMonitor是否能正常显示对应的温度。如果下载的最新版LibreHardwareMonitor可以正常监控到硬件温度，则将下载的LibreHardwareMonitor文件夹中的LibreHardwareMonitorLib.dll替换掉TrafficMonitor文件夹下的LibreHardwareMonitorLib.dll文件，即可解决温度无法检测的问题。
+[Latest supported Visual C++ Redistributable downloads | Microsoft Docs](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170)
 
-请不要向我反馈诸如温度显示不准确、显卡利用率不准确之类的问题，此类问题我无法解决。TrafficMonitor不是专业的硬件监控软件，无法保证硬件监控的数据在所有设备上的准确性。
+### I want to have more hardware information on the taskbar, such an fan speed, power, etc
 
-**注意：硬件监控功能（包括温度监控和显卡使用率监控）可能存在一些问题，它可能会占用更多的CPU和内存。据部分用户反馈，开启温度功能后会导致程序崩溃和系统死机等问题，请在知晓以上风险后再决定开启硬件监控功能。否则，请不要使用硬件监控功能。**
+The Hardware Monitor plug in is now available. It can display all the monitoring items in LibreHardwareMonitor.
 
-### 程序启动时提示找不到“MSVC\*.dll”、“mfc\*.dll”、“vc*.dll”
+![](images/420555677-53bd3ac9-1c55-4212-aa68-1fe5711e9fbc.png)
 
-点击以下链接下载并安装Microsoft Visual C++ 运行环境。
-
-[最新支持的 Visual C++ 可再发行程序包下载 | Microsoft Docs](https://docs.microsoft.com/zh-CN/cpp/windows/latest-supported-vc-redist?view=msvc-170)
-
-### 我希望在任务栏上显示更多硬件信息，比如风扇转速、功率等
-
-现在推出了硬件监控插件，可以显示LibreHardwareMonitor中所有监控项目。
-
-![](Screenshots/420555677-53bd3ac9-1c55-4212-aa68-1fe5711e9fbc.png)
-
-使用说明和下载链接请点下方链接转到插件下载页面：
+For instructions and download links, please click the link below to go to the plug-in download page:
 
 [TrafficMonitorPlugins/download/plugin_download.md at main · zhongyang219/TrafficMonitorPlugins](https://github.com/zhongyang219/TrafficMonitorPlugins/blob/main/download/plugin_download.md)
 
-### 关于程序崩溃问题
+### About the crash issue
 
-如果遇到程序崩溃的问题，重新启动程序后，请先到“选项”——“常规设置”——“硬件监控”中关闭所有项目的硬件监控，因为基于用户提供的dmp文件发现，大多数崩溃问题都和硬件监控功能有关。和硬件监控功能相关的崩溃问题我无法解决，请不要向我发送邮件反馈。如果你排除了硬件监控的问题，但是崩溃问题仍然存在，请先到“选项”——“常规设置”——“高级”——“插件管理”中禁用所有插件，再重新启动程序（如果程序无法启动，请删除TrafficMonitor所在目录下plugins里面的所有dll文件）。如果排除了插件的问题，但是崩溃问题仍然存在，请根据崩溃弹窗中的提示向我发送电子邮件。
+If you encounter the problem of program crash, please turn off all the items in "Options" - "General Settings" - "Hardware Monitoring" after restarting the program, because based on the DMP file provided by the user, most crash problems are related to the hardware monitoring function. I cannot solve the crash problem related to the hardware monitoring function, please do not send me email feedback. If you have excluded the hardware monitoring problem, but the crash problem still exists, please go to "Options" - "General Settings" - "Advanced" - "Plug-in Management" to disable all plugins, and then restart the program. (If the program fails to start, please delete all the `dll` files in the `plugins` in the directory where TrafficMonitor is located). If you have excluded the plugin problem, but the crash problem still exists, please send me the email according to the prompts in the crash window.
 
-如果还遇到其他问题，也可以点击“关于”对话框中的“联系作者”，或者直接[点击此处](mailto:zhongyang219@hotmail.com)向我发送电子邮件。但我由于作者的能力有限，我并不能保证可以解决所有问题，但是你的反馈也许可以帮助我更好的改进这个软件。
-请在邮件中尽可能详细地描述你遇到的问题，出现了什么错误提示，你尝试过哪些操作等，最好能够附上截图和配置文件（“选项”——“常规设置”——“打开配置文件所在路径”）。
-注意，发送前请先确认一下你发送时使用的电子邮件地址，如果你的邮件地址是形如“outlook_随机字符串@outlook.com”的格式，那么这样的邮箱地址是无法回复的。
-这可能是由于你使用了第三方邮箱地址作为Microsoft账号登录Windows导致的。如果有这样的情况，请务必在邮件中附上正确的电子邮件地址。
+If you have encountered any other problems, you can also click "Contact Author" in the "About" dialog box, or directly [click here](mailto:zhongyang219@hotmail.com) to send me an email.
+Please describe the problems you have encountered in detail, the error prompts, what operations you have tried, it is better to attach the screenshots and configuration files ("Options"-"General Settings"-"Open configuration file path"). 
+Note: Please confirm the email address that you used before sending the email. If your email address is form like "Outlook_\<random string\>@outlook.com", then such email address is unable to reply.
+This may be due to the fact that you are using a third-party e-mail address as the Microsoft account to log on to Windows. If this is the case, be sure to enclose the correct email address in the message.
